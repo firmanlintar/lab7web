@@ -56,13 +56,13 @@
                 </label>
                 <label>Pekerjaan: 
                     <label>
-                    <input type="radio" name="job" value="0"/>Database Administrator
+                    <input type="radio" name="job" value="0"/>Backend Engineer
                     </label>
                     <label>
-                    <input type="radio" name="job" value="1"/>Software Developer
+                    <input type="radio" name="job" value="1"/>Frontend Engineer
                     </label>
                     <label>
-                    <input type="radio" name="job" value="2"/>Web Developer
+                    <input type="radio" name="job" value="2"/>Fullstack Developer
                     </label>
                 </label>
                 <button type="submit" name="submit">Kirim</button>
@@ -80,8 +80,8 @@
                     $today =  new DateTime('today');
                     $usia = $today->diff($date_user)->y;
 
-                    $job_array = ["Database Administrator","Software Developer","Web Developer"];
-                    $salary_array = ["Rp. 5.300.000","Rp. 5.400.000","Rp. 4.800.000"];
+                    $job_array = ["Backend Engineer","Frontend Engineer","Fullstack Developer"];
+                    $salary_array = ["Rp. 13.000.000","Rp. 9.000.000","Rp. 11.000.000"];
 
 
                     echo "Halo, ".$nama."<br>Kamu lahir pada tanggal ".$date.", Usia mu ".$usia." tahun";
