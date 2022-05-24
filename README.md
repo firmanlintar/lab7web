@@ -46,7 +46,7 @@ Menambahkan variable pada program.
 ![img9!](assets/img/2.5.PNG)
 
 Untuk mengaksesnya gunakan URL:
-http://localhost/lab7_php_dasar/php_dasar.php?nama=%20AdityaBani
+http://localhost/lab7_php_dasar/php_dasar.php?nama=%firman
 
 ![img10!](assets/img/2.6.PNG)
 
